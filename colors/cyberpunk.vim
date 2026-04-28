@@ -42,8 +42,8 @@ call HighlightFor("Title",     "#ff55ff", "NONE", "NONE")
 
 " Cursor {{{
 call HighlightFor("Cursor",       "#ff00ff", "NONE",    "NONE")
-call HighlightFor("CursorLine",   "#090916", "#0055ff", "bold")
-call HighlightFor("CursorLineNr", "#090916", "#ff00ff", "NONE")
+call HighlightFor("CursorLine",   "#090916", "#ffff00", "bold")
+call HighlightFor("CursorLineNr", "#090916", "#ffff00", "NONE")
 call HighlightFor("CursorColumn", "NONE",    "NONE",    "NONE")
 " }}}
 
@@ -84,7 +84,7 @@ call HighlightFor("Tag",        "#ff55ff", "NONE",    "undercurl")
 
 " Pmenu {{{
 call HighlightFor("Pmenu",      "#00e5ff", "#07071a", "NONE")
-call HighlightFor("PmenuSel",   "#090916", "#0055ff", "NONE")
+call HighlightFor("PmenuSel",   "#090916", "#39ff14", "NONE")
 call HighlightFor("PmenuSbar",  "NONE",    "#ff0055", "NONE")
 call HighlightFor("PmenuThumb", "NONE",    "NONE",    "NONE")
 " }}}

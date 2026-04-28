@@ -1,3 +1,7 @@
+# VIM Cyberpunk Theme
+
+## Neovim installation
+
 **colorscheme.lua**
 
 ```lua

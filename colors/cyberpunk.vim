@@ -15,7 +15,7 @@ function! HighlightFor(group, ...)
 endfunction
 
 " general
-call HighlightFor("Normal",      "#00e5ff", "#090916", "NONE")
+call HighlightFor("Normal",      "#00e5ff", "NONE",    "NONE")
 call HighlightFor("Visual",      "NONE",    "#1a082e", "NONE")
 call HighlightFor("ColorColumn", "NONE",    "#0d0d22", "NONE")
 call HighlightFor("LineNr",      "#5566aa", "NONE",    "NONE")
@@ -26,7 +26,7 @@ call HighlightFor("DiffDelete", "NONE", "#ff0055", "NONE")
 call HighlightFor("DiffText",   "NONE", "#00ff41", "NONE")
 call HighlightFor("DiffChange", "NONE", "NONE",    "NONE")
 
-call HighlightFor("VertSplit", "#00e5ff", "#090916", "NONE")
+call HighlightFor("VertSplit", "#00e5ff", "NONE",    "NONE")
 
 call HighlightFor("IncSearch",  "NONE", "#0020a0", "NONE")
 call HighlightFor("Search",     "NONE", "#0020a0", "NONE")
@@ -91,7 +91,7 @@ call HighlightFor("PmenuThumb", "NONE",    "NONE",    "NONE")
 
 " Status line {{{
 call HighlightFor("StatusLine",   "#ff00ff", "#1a0010", "bold")
-call HighlightFor("StatusLineNC", "#5566aa", "#090916", "NONE")
+call HighlightFor("StatusLineNC", "#5566aa", "NONE",    "NONE")
 " }}}
 
 " Tab pages {{{

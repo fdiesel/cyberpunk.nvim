@@ -89,6 +89,12 @@ call HighlightFor("PmenuSbar",  "NONE",    "#ff0055", "NONE")
 call HighlightFor("PmenuThumb", "NONE",    "NONE",    "NONE")
 " }}}
 
+" Floating windows {{{
+call HighlightFor("NormalFloat",  "#00e5ff", "NONE", "NONE")
+call HighlightFor("FloatBorder",  "#5566aa", "NONE", "NONE")
+call HighlightFor("FloatTitle",   "#ff55ff", "NONE", "NONE")
+" }}}
+
 " Status line {{{
 call HighlightFor("StatusLine",   "#ff00ff", "#1a0010", "bold")
 call HighlightFor("StatusLineNC", "#5566aa", "NONE",    "NONE")

@@ -32,7 +32,7 @@ call HighlightFor("IncSearch",  "NONE", "#0020a0", "NONE")
 call HighlightFor("Search",     "NONE", "#0020a0", "NONE")
 call HighlightFor("Substitute", "NONE", "#0020a0", "NONE")
 
-call HighlightFor("MatchParen", "#ff0055", "#ff00ff", "NONE")
+call HighlightFor("MatchParen", "#090916", "#ffff00", "bold")
 call HighlightFor("NonText",    "#5566aa", "NONE", "NONE")
 call HighlightFor("Whitespace", "#5566aa", "NONE", "NONE")
 
@@ -41,7 +41,7 @@ call HighlightFor("Directory", "#00e5ff", "NONE", "NONE")
 call HighlightFor("Title",     "#ff55ff", "NONE", "NONE")
 
 " Cursor {{{
-call HighlightFor("Cursor",       "#ff00ff", "NONE",    "NONE")
+call HighlightFor("Cursor",       "#090916", "#ffff00", "NONE")
 call HighlightFor("CursorLine",   "#090916", "#ffff00", "bold")
 call HighlightFor("CursorLineNr", "#090916", "#ffff00", "NONE")
 call HighlightFor("CursorColumn", "NONE",    "NONE",    "NONE")

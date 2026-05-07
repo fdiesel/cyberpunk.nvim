@@ -42,8 +42,8 @@ call HighlightFor("Title",     "#ff55ff", "NONE", "NONE")
 
 " Cursor {{{
 call HighlightFor("Cursor",       "#090916", "#ffff00", "NONE")
-call HighlightFor("CursorLine",   "#090916", "#ffff00", "bold")
-call HighlightFor("CursorLineNr", "#090916", "#ffff00", "NONE")
+call HighlightFor("CursorLine",   "NONE",    "#2a0a3e", "NONE")
+call HighlightFor("CursorLineNr", "#ff55ff", "#2a0a3e", "bold")
 call HighlightFor("CursorColumn", "NONE",    "NONE",    "NONE")
 " }}}
 
